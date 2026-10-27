@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "approved": true,
+  "review_type": "explicit_semantic_review",
+  "reviewed_at_utc": "2026-10-27T12:27:48.905480+00:00",
+  "file": "clip.mp4",
+  "sha256": "5a5424672b510d1e0727b9f371dbefd725d35a73d635815f43bd232ced3719ee",
+  "findings": [
+    "Continuous wide aerial view; no shot cut or close-up.",
+    "Fire and moving smoke develop through the forest while the valley remains coherent.",
+    "Usable as six seconds of extinction/fire aftermath; no claim that an asteroid strike itself is shown."
+  ],
+  "technical": {
+    "name": "impact",
+    "path": "/workspace/scratch/earthfilm_video/clips/impact/clip.mp4",
+    "target_seconds": 6,
+    "target_frames": 144,
+    "native_frames": 145,
+    "native_duration": 6.041667,
+    "native_fps": "24",
+    "width": 1152,
+    "height": 640,
+    "caption": "66 mln lat temu",
+    "source_audio_used": false
+  }
+}

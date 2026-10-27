@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "approved": true,
+  "review_type": "explicit_semantic_review",
+  "reviewed_at_utc": "2026-10-27T12:27:48.412641+00:00",
+  "file": "clip.mp4",
+  "sha256": "35fb202b09addfac4cb0f1f3de01e7e1bfda66aa063da0a2de9170a905f81968",
+  "findings": [
+    "Continuous wide aerial view of the river valley; no cut to a close-up.",
+    "Timber building skeletons and roof coverage visibly progress within the settlement.",
+    "Gentle camera movement preserves the overall valley view; usable for the eight-second settlement slot."
+  ],
+  "technical": {
+    "name": "settlement",
+    "path": "/workspace/scratch/earthfilm_video/clips/settlement/clip.mp4",
+    "target_seconds": 8,
+    "target_frames": 192,
+    "native_frames": 193,
+    "native_duration": 8.041667,
+    "native_fps": "24",
+    "width": 1152,
+    "height": 640,
+    "caption": "8 tys. lat temu",
+    "source_audio_used": false
+  }
+}
