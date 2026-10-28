@@ -1,0 +1,2 @@
+gradio_client==2.7.2
+huggingface_hub==2.3.0

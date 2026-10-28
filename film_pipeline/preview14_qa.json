@@ -1,0 +1,24 @@
+{
+  "approved": true,
+  "type": "incomplete_motion_preview",
+  "duration": 14,
+  "frames": 336,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "sha256": "a6ef0a7a8c009e0b05c3396b8e8e2e9698c94d288fe77688fa98dcc3da665e84",
+  "source_clips": {
+    "impact": "5a5424672b510d1e0727b9f371dbefd725d35a73d635815f43bd232ced3719ee",
+    "settlement": "35fb202b09addfac4cb0f1f3de01e7e1bfda66aa063da0a2de9170a905f81968"
+  },
+  "source_native_frames_used": {
+    "impact": 144,
+    "settlement": 192
+  },
+  "notes": [
+    "Hard cut at six seconds between two approved generated-motion clips.",
+    "Native 24fps; no loop, freeze, stills or speed changes.",
+    "Source audio removed and replaced by existing instrumental soundtrack.",
+    "Full decode passed. Not the completed sixty-second film."
+  ]
+}

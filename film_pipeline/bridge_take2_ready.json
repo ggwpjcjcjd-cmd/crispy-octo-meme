@@ -1,0 +1,14 @@
+{
+  "status": "first_frame_prepared_not_video_generated",
+  "source": "assets/bridge_under_construction.png",
+  "source_sha256": "718f77ff3b509cd01baaded0dc9d8a457fb424d5df0a5ed18c3f75aad906e55d",
+  "prompt_file": "prompts/bridge_take2.txt",
+  "clip_id": "bridge_take2",
+  "duration": 10,
+  "width": 1152,
+  "height": 640,
+  "seed": 20261031,
+  "review": "The intended existing crossing has visible unfinished masonry and timber centering; the rest of the high aerial valley composition is preserved. No video generation is claimed.",
+  "previous_take_rejected": "bridge (not included in published motion_sources)",
+  "prepared_at_utc": "2026-10-28T05:50:51.117893+00:00"
+}

@@ -1,0 +1,7 @@
+__pycache__/
+client_deps/
+.venv/
+motion_edit_cache/
+motion_input_report.json
+final_motion_qa.json
+*.partial.mp4

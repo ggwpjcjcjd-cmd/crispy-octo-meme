@@ -1,0 +1,129 @@
+{
+  "project": "Ziemia — ciągła akcja w ujęciach z lotu ptaka",
+  "status": "14_seconds_approved_46_seconds_missing",
+  "provider": "Lightricks/LTX-2-3",
+  "api_name": "/generate_video",
+  "output": {
+    "duration_seconds": 60,
+    "fps": 24,
+    "width": 1280,
+    "height": 720,
+    "frames": 1440
+  },
+  "api_defaults": {
+    "enhance_prompt": false,
+    "randomize_seed": false,
+    "seed": 20261027,
+    "height": 640,
+    "width": 1152
+  },
+  "execution_constraints": {
+    "owner": "root_only",
+    "each_requested_duration_seconds": "1–10",
+    "paid_jobs_authorized": false,
+    "free_account_documented_daily_gpu_seconds": 300,
+    "gpu_reservation_seconds_per_request": 150,
+    "quota_policy": "Confirm remaining allowance before each root-controlled generation. Do not bypass quota, login, queue priority, or rate limits. Chat tokens are unrelated to GPU quota. Seven clips may not fit one day's allowance; no free-completion claim is made.",
+    "secrets": "Never put an HF token, authorization header, or credential binding in this manifest or prompt files.",
+    "gpu_reservation_note": "Deployed Space auto-selects xlarge; 75-second GPU duration reserves 150 free quota seconds."
+  },
+  "continuity": "Every shot remains a single uninterrupted high aerial wide view. Preserve river bends, town and mountains. The bridge retry completes the existing anchored unfinished bridge; other construction uses the localized target described in each prompt. No close-ups or internal cuts.",
+  "shots": [
+    {
+      "id": "dinos",
+      "order": 1,
+      "start_seconds": 0,
+      "end_seconds": 10,
+      "duration": 10,
+      "source": "assets/scene01.png",
+      "prompt_file": "prompts/dinos.txt",
+      "date_caption": "70 mln lat temu",
+      "primary_action": "Herd walking with individual leg cycles and water interaction"
+    },
+    {
+      "id": "impact",
+      "order": 2,
+      "start_seconds": 10,
+      "end_seconds": 16,
+      "duration": 6,
+      "source": "assets/scene02.png",
+      "prompt_file": "prompts/impact.txt",
+      "date_caption": "66 mln lat temu",
+      "primary_action": "Fire front propagating from already burning into intact woodland"
+    },
+    {
+      "id": "logging",
+      "order": 3,
+      "start_seconds": 16,
+      "end_seconds": 24,
+      "duration": 8,
+      "source": "assets/scene03.png",
+      "prompt_file": "prompts/logging.txt",
+      "date_caption": "8 tys. lat temu",
+      "primary_action": "Individual trees falling and logs being removed, leaving stumps"
+    },
+    {
+      "id": "settlement",
+      "order": 4,
+      "start_seconds": 24,
+      "end_seconds": 32,
+      "duration": 8,
+      "source": "assets/scene05.png",
+      "prompt_file": "settlement_wide_prompt.txt",
+      "date_caption": "8 tys. lat temu",
+      "primary_action": "Hut frames, rafters and thatched roofs assembled on bare plots",
+      "generation_note": "Root owns this prompt and its wide-view reroll. Do not use the earlier take that cuts to a human close-up."
+    },
+    {
+      "id": "bridge",
+      "order": 5,
+      "start_seconds": 32,
+      "end_seconds": 42,
+      "duration": 10,
+      "source": "assets/bridge_under_construction.png",
+      "prompt_file": "prompts/bridge_take2.txt",
+      "date_caption": "Około 1500 roku",
+      "primary_action": "Masonry and deck sections close visible gaps along an already anchored unfinished central bridge",
+      "generation_take_id": "bridge_take2",
+      "generation_note": "Generate a unique take bridge_take2. Original clips/bridge is rejected. Only select the replacement after positive hash-bound semantic review."
+    },
+    {
+      "id": "industrial",
+      "order": 6,
+      "start_seconds": 42,
+      "end_seconds": 50,
+      "duration": 8,
+      "source": "assets/scene07.png",
+      "prompt_file": "prompts/industrial.txt",
+      "date_caption": "Około 1900 roku",
+      "primary_action": "A new factory wing grows through rigid framing, brickwork and roof-truss stages"
+    },
+    {
+      "id": "modern",
+      "order": 7,
+      "start_seconds": 50,
+      "end_seconds": 60,
+      "duration": 10,
+      "source": "assets/scene08.png",
+      "prompt_file": "prompts/modern.txt",
+      "date_caption": "Dzisiaj",
+      "primary_action": "One low foreground building gains rigid floors and facade rows while adjacent skyline remains fixed"
+    }
+  ],
+  "acceptance": [
+    "Reject any take that cuts to a person, animal close-up, machinery close-up or a different camera position.",
+    "Reject camera-only motion, whole-frame zoom, architecture morphs, opacity reveals, forest fading, or global dissolves used instead of action.",
+    "Accept only footage showing local physical changes or independent actor motion against an unchanged wide valley.",
+    "Requested clip durations may produce 8k+1 frame counts. The assembler must trim/count frames to exactly 1440 final frames rather than assuming the provider's MP4 duration equals the requested number.",
+    "Root alone selects accepted output paths; this manifest does not assert that any of these seven final shots has already been generated or passed review."
+  ],
+  "path_base": "film_pipeline directory; paths below are relative to it",
+  "quota_observation": {
+    "measured_at_date": "2026-10-28",
+    "remaining_free_gpu_seconds": 94.781106,
+    "minimum_reservation_seconds": 150,
+    "resets_at_warsaw": "2026-10-28T12:59:45+01:00",
+    "approved_seconds": 14,
+    "missing_seconds": 46
+  }
+}
